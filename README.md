@@ -1,7 +1,7 @@
 # traffic
 improving a CNN to recognize traffic signs 
 
-
+========================================
 experiment I
 first CNN config
 
@@ -13,9 +13,8 @@ first CNN config
 
 result:
 accuracy: 0.9541 - loss: 0.1544 
-
 ========================================
-
+========================================
 experiment II
 added more neurons into 1 hidden layer: from 128 to 256:
 
@@ -28,7 +27,7 @@ added more neurons into 1 hidden layer: from 128 to 256:
 result:
 accuracy: 0.9723 - loss: 0.0964  
 ========================================
-
+========================================
 experiment III
 added a second hidden layer with 128 neurons
 
@@ -42,7 +41,7 @@ added a second hidden layer with 128 neurons
 result:
 accuracy: 0.9791 - loss: 0.0952
 ========================================
-
+========================================
 experiment IV
 added 1 Conv2D + MaxPooling2D block 
 
@@ -58,7 +57,7 @@ added 1 Conv2D + MaxPooling2D block
 result:
 accuracy: 0.9810 - loss: 0.0969
 ========================================
-
+========================================
 experiment V
 Instead Flatten, tried GlobalAveragePooling
 
@@ -74,7 +73,7 @@ Instead Flatten, tried GlobalAveragePooling
 result:
 accuracy: 0.9109 - loss: 0.2722
 ========================================
-
+========================================
 experiment VI
 last config
 
@@ -90,3 +89,6 @@ last config
 
 result:
 accuracy: 0.9870 - loss: 0.0475
+========================================
+
+
